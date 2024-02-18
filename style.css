@@ -1,0 +1,238 @@
+*{
+margin: 0;
+padding: 0;
+background-color: #fff;
+
+    }
+
+
+.header-container{
+    width: 1600px;
+    height: 60px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    font-family: "BBC Reith Sans";
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+#logo-bbc{
+    display: flex;
+    margin-left: 120px;
+}
+.sign-btn {
+    margin-left: 20px;
+    border: none;
+    background-color: #fff;
+}
+
+
+ul {
+    list-style-type: none;
+    margin-left: 290px;
+    padding: 5px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li  {
+    display: flex;
+    color: rgb(21, 18, 18);
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+
+.main-menu-news {
+    margin-left: 90px;
+    
+}
+
+
+
+
+
+.header-menu-news{
+    width: 1600px;
+    height: 100px;
+    background-color: #b80000;
+}
+
+
+
+h1{
+    color: white;
+    background-color: #b80000;
+  padding-left: 120px;
+}
+
+.header-advertisement{
+    width: 1600px;
+    height: 300px;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-top-stories{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: 140px;
+margin-right: 140px;
+
+}
+
+
+.top-stories {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 14px;
+
+
+  }
+  
+  .top-stories div{
+    align-content: center;
+  }
+  
+  .box {
+    background-color: #fff;
+    display: flex;
+ 
+    justify-content: center;
+
+
+  }
+  
+  .one-card {
+    grid-column: 1 / 2;
+    grid-row: 1 / 6;
+  }
+  
+  .two-image {
+    grid-column: 2 / 4;
+    grid-row: 1 / 6;
+ 
+  }
+  
+
+  .three-card-image{
+    grid-column: 4 / 5;
+    grid-row: 1 / 6;
+  }
+  .four {
+    grid-column: 5 / 6;
+    grid-row: 1 / 7;
+  }
+
+
+
+  
+.card {
+  width: 250px;
+  height: fit-content;
+  /* background-color: yellow; */
+}
+.card-first {
+  width: 350px;
+}
+.image-container {
+  /* min-width: 100%; */
+  height: fit-content;
+}
+.card-image {
+  max-width: 100%;
+  /* height: 135px; */
+}
+
+.card-title-big {
+  font-family: "BBC Reith Serif";
+  color: #716c65;
+  line-height: 2.2rem;
+  font-size: 1.75rem;
+  margin-top: 8px;
+  font-weight: 600;
+  vertical-align: middle;
+}
+
+.card-title {
+  font-family: "BBC Reith Serif";
+  color: #000000;
+  line-height: 1.25rem;
+  font-size: 1rem;
+  margin-top: 8px;
+  font-weight: 600;
+  vertical-align: middle;
+}
+
+.card-text {
+  font-family: "BBC Reith Sans";
+  margin-top: 8px;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  color: #5a5a5a;
+  font-weight: 500;
+}
+
+.card-footer {
+  margin-top: 8px;
+  line-height: 0.7rem;
+  /* display: block; */
+  margin-block-start: 1em;
+  vertical-align: middle;
+}
+
+.card-footer li {
+  font-family: "BBC Reith Sans";
+  list-style: none;
+  display: inline;
+  vertical-align: middle;
+}
+
+.card-footer li:first-of-type {
+  color: #5a5a5a;
+  font-size: 0.875rem;
+  font-weight: 500;
+  padding-right: 6px;
+  margin-right: 6px;
+  margin-top: 4px;
+}
+
+.card-footer-item {
+  color: #222;
+  font-size: 0.875rem;
+  font-weight: 500;
+  padding-right: 6px;
+  margin-right: 6px;
+  margin-top: 4px;
+  vertical-align: middle;
+  display: flex;
+}
+
+.card-footer svg {
+  fill: #5a5a5a;
+  font-size: 0.875rem;
+  font-weight: 700;
+  width: 13px;
+  height: 13px;
+}
+
+.pipe {
+  border-right: 1px solid #dbdbdb;
+}
+
+.dialogue-icon {
+  width: 13px;
+  height: 13px;
+}
+.bottom-text-container {
+  width: 100%;
+  height: 25px;
+  /* background-color: yellow; */
+}
